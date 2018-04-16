@@ -1,7 +1,5 @@
 /**
  * main config file
- * 
- * @author ViliusL
  */
 
 //canvas layers
