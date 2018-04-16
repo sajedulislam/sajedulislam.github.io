@@ -6,8 +6,6 @@ var POP = new popup();
 /**
  * user dialogs library
  * 
- * @author ViliusL
- * 
  * Usage:
  * var POP = new popup();
  * POP.add({name: "param1", title: "value1:" });
