@@ -5,8 +5,6 @@ var DRAW = new DRAW_TOOLS_CLASS();
 
 /** 
  * manages draw tools
- * 
- * @author ViliusL
  */
 function DRAW_TOOLS_CLASS() {
 	
