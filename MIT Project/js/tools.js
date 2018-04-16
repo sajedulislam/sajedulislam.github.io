@@ -5,8 +5,6 @@ var TOOLS = new TOOLS_CLASS();
 
 /** 
  * manages various tools
- * 
- * @author ViliusL
  */
 function TOOLS_CLASS() {
 
