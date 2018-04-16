@@ -5,8 +5,6 @@ var EDIT = new EDIT_CLASS();
 
 /** 
  * manages edit actions
- * 
- * @author ViliusL
  */
 function EDIT_CLASS() {
 	
