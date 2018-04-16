@@ -4,8 +4,6 @@ var HELPER = new HELPER_CLASS();
 
 /**
  * various helpers
- * 
- * @author ViliusL
  */
 function HELPER_CLASS() {
 	var time;
