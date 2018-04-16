@@ -5,8 +5,6 @@ var GUI = new GUI_CLASS();
 
 /**
  * manages grapchic interface functionality: left/right sidebar actions
- * 
- * @author ViliusL
  */
 function GUI_CLASS() {
 	
