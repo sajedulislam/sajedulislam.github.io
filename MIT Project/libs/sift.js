@@ -1,7 +1,5 @@
 /**
  * SIFT: scale-invariant-feature-transform, keypoints
- * 
- * @author ViliusL
  */
 
 /* global HELPER, IMAGE, ImageFilters, LAYER, canvas_active */
