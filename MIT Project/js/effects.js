@@ -5,8 +5,6 @@ var EFFECTS = new EFFECTS_CLASS();
 
 /** 
  * manages effects
- * 
- * @author ViliusL
  */
 function EFFECTS_CLASS() {
 	
