@@ -5,8 +5,6 @@ var VINTAGE = new VINTAGE_CLASS();
 /**
  * adds vintage effect
  * 
- * @author ViliusL
- * 
  * Functions:
  * - adjust_color
  * - lower_contrast
