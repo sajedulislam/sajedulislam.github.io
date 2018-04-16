@@ -5,8 +5,6 @@ var FILE = new FILE_CLASS();
 
 /** 
  * manages files actions
- * 
- * @author ViliusL
  */
 function FILE_CLASS() {
 
