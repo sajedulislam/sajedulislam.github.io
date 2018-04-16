@@ -5,8 +5,6 @@ var LAYER = new LAYER_CLASS();
 
 /**
  * layers class - manages layers
- * 
- * @author ViliusL
  */
 function LAYER_CLASS() {
 	
