@@ -19,9 +19,6 @@ var VINTAGE = new VINTAGE_CLASS();
  *
  * Usage:	VINTAGE.___function___(canvas_ctx, width, height, param1, param2, ...);
  * 
- * libs:		
- * - imagefilters.js, url: https://github.com/arahaya/ImageFilters.js
- * - glfx.js url: http://evanw.github.com/glfx.js/
  */
 function VINTAGE_CLASS() {
 	var fx_filter = false;
