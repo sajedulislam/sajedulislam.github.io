@@ -6,8 +6,6 @@ document.onload = MAIN.init(true);
 
 /**
  * main class - initialize app
- * 
- * @author ViliusL
  */
 function MAIN_CLASS() {
 	this.use_OS_color_mode = true;
