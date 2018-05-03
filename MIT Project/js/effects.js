@@ -25,6 +25,7 @@ function EFFECTS_CLASS() {
 		{title: 'Enrich',			name: 'effects_Enrich' },
 		{title: 'Grains',			name: 'effects_Grains' },
 		{title: 'Heatmap',		name: 'effects_heatmap' },
+		{title: 'Invert',		name: 'effects_invert' },
 		{title: 'JPG Compression',	name: 'effects_jpg_vintage' },
 		{title: 'Mosaic',			name: 'effects_Mosaic' },
 		{title: 'Oil',			name: 'effects_Oil' },
@@ -1023,6 +1024,19 @@ function EFFECTS_CLASS() {
 		RGB.B = Math.round(RGB.B);
 
 		return RGB;
+	};
+		
+	this.effects_invert = function (context, W, H) {
+		var img = context.getImageData(0, 0, W, H);
+		var imgData = img.data;
+ 		var i;
+	    for (i = 0; i < imgData.length; i += 4) {
+        imgData.data[i] = 255 - imgData.data[i];
+        imgData.data[i+1] = 255 - imgData.data[i+1];
+        imgData.data[i+2] = 255 - imgData.data[i+2];
+        imgData.data[i+3] = 255;
+	    }
+		context.putImageData(img, 0, 0);
 	};
 	
 	//method = otsu
