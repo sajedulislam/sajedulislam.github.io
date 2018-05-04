@@ -432,6 +432,20 @@ function EFFECTS_CLASS() {
 			}
 		);
 	};
+	
+		this.effects_invert = function () {
+		var _this = this;
+		POP.effects = true;
+		POP.show('Invert',
+			function (user_response) {
+				EDIT.save_state();
+				_this.invert_effect(canvas_active(), WIDTH, HEIGHT);
+			},
+			function (user_response, canvas_preview, w, h) {
+				_this.invert_effect(canvas_preview, w, h);
+			}
+		);
+	};
 
 	this.effects_heatmap = function () {
 		var _this = this;
@@ -1026,16 +1040,16 @@ function EFFECTS_CLASS() {
 		return RGB;
 	};
 		
-	this.effects_invert = function (context, W, H) {
+	this.invert_effect = function (context, W, H) {
 		var img = context.getImageData(0, 0, W, H);
 		var imgData = img.data;
- 		var i;
-	    for (i = 0; i < imgData.length; i += 4) {
-        imgData.data[i] = 255 - imgData.data[i];
-        imgData.data[i+1] = 255 - imgData.data[i+1];
-        imgData.data[i+2] = 255 - imgData.data[i+2];
-        imgData.data[i+3] = 255;
-	    }
+
+		for (var i = 0; i < imgData.length; i += 4) {
+      			 imgData[i] = 255 - imgData[i];
+      			 imgData[i+1] = 255 - imgData[i+1];
+        		 imgData[i+2] = 255 - imgData[i+2];
+        		 imgData[i+3] = 255;
+		}
 		context.putImageData(img, 0, 0);
 	};
 	
