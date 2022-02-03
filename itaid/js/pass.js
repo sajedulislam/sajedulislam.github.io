@@ -1,5 +1,5 @@
 var password = prompt("Enter the password")
-if (password == "it2020") {
+if (password == "it2022") {
 alert("Welcome to ITAID!")
 }
 else {
