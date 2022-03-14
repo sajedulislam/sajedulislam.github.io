@@ -6,8 +6,8 @@ My Project List:
 2. MIT Project : https://sajedulislam.github.io/MIT%20Project
 3. Quran : https://sajedulislam.github.io/quran
 4. HTML5 Games: https://sajedulislam.github.io/games/TicTacToe/
- 
- 
+                https://sajedulislam.github.io/games/2048/
+                https://sajedulislam.github.io/games/hextris/
 5. ITAID : https://sajedulislam.github.io/itaid
 
 Catch me on:
