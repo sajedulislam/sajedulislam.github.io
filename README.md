@@ -5,15 +5,15 @@ My Project List:
 1. CryptoMiner : https://sajedulislam.github.io/CryptoMiner
 2. MIT Project : https://sajedulislam.github.io/MIT%20Project
 3. Quran : https://sajedulislam.github.io/quran
-4. HTML5 Games: https://sajedulislam.github.io/games/TicTacToe/
-                https://sajedulislam.github.io/games/2048/
-                https://sajedulislam.github.io/games/hextris/
+4. HTML5 Games: ✔ 1. https://sajedulislam.github.io/games/TicTacToe/
+</br> ✔ 2. https://sajedulislam.github.io/games/2048/
+</br> ✔ 3. https://sajedulislam.github.io/games/hextris/
 5. ITAID : https://sajedulislam.github.io/itaid
 
 Catch me on:
-1.  ✔ https://www.facebook.com/Sajedul.IT/
-2.  ✔ https://instagram.com/0.tushar
-3.  ✔ https://www.facebook.com/0.tushar
+1.  https://www.facebook.com/Sajedul.IT/
+2.  https://instagram.com/0.tushar
+3.  https://www.facebook.com/0.tushar
 
 © SAJEDUL ISLAM
 
