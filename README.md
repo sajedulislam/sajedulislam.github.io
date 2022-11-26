@@ -10,6 +10,7 @@ My Project List:
 </br> ✔ 3. https://sajedulislam.github.io/games/hextris/
 5. DesiAd : https://sajedulislam.github.io/DesiAd
 6. Onlinejobshub : https://sajedulislam.github.io/onlinejobshub
+7. Web Music Player : https://sajedulislam.github.io/music
 
 Catch me on:
 1.  https://www.facebook.com/Sajedul.IT/
