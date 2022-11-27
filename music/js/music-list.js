@@ -202,7 +202,25 @@ let allMusic = [
     img: "cover",
     src: "music-32"
   },
-
+  {
+    name: "Tomar_Jonno",
+    artist: "Arnob",
+    img: "cover",
+    src: "music-33"
+  },
+  {
+    name: "Shunil_Boruna",
+    artist: "Mahadi",
+    img: "cover",
+    src: "music-34"
+  },
+      {
+    name: "Gale Lag Ja",
+    artist: "De Dana Dan",
+    img: "cover",
+    src: "music-35"
+  },
+  
   // like this paste it and remember to give comma after ending of this bracket }
   // {
   //   name: "Here is the music name",
