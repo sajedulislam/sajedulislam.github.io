@@ -256,6 +256,24 @@ let allMusic = [
     img: "cover",
     src: "music-41"
   },
+                {
+    name: "Radhe Radhe",
+    artist: "Dream Girl",
+    img: "cover",
+    src: "music-42"
+  },
+                {
+    name: "Main Rahoon Ya Na Rahoon",
+    artist: "Armaan Malik",
+    img: "cover",
+    src: "music-43"
+  },
+               {
+    name: "O Bekhabar O Bekadar",
+    artist: "Action Replayy",
+    img: "cover",
+    src: "music-44"
+  },
   
   // like this paste it and remember to give comma after ending of this bracket }
   // {
