@@ -238,6 +238,24 @@ let allMusic = [
     img: "cover",
     src: "music-38"
   },
+              {
+    name: "Hal E Dil - Acoustic",
+    artist: "Murder 2",
+    img: "cover",
+    src: "music-39"
+  },
+                {
+    name: "Chahun Main Ya Naa",
+    artist: "Arijit Singh",
+    img: "cover",
+    src: "music-40"
+  },
+                {
+    name: "Dil Ka Telephone",
+    artist: "Dream Girl",
+    img: "cover",
+    src: "music-41"
+  },
   
   // like this paste it and remember to give comma after ending of this bracket }
   // {
