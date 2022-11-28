@@ -90,7 +90,7 @@ let allMusic = [
   },
               {
     name: "Sharthopor",
-    artist: "Jaal The Trap",
+    artist: "Trap",
     img: "cover",
     src: "music-14"
   },
