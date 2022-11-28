@@ -220,6 +220,18 @@ let allMusic = [
     img: "cover",
     src: "music-35"
   },
+        {
+    name: "Ik Vaari Aa - Raabta",
+    artist: "Arijit Singh",
+    img: "cover",
+    src: "music-36"
+  },
+          {
+    name: "Aabaad Barbaad",
+    artist: "Ludo",
+    img: "cover",
+    src: "music-37"
+  },
   
   // like this paste it and remember to give comma after ending of this bracket }
   // {
