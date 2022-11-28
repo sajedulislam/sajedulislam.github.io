@@ -274,6 +274,24 @@ let allMusic = [
     img: "cover",
     src: "music-44"
   },
+                {
+    name: "Woh Pehli Baar",
+    artist: "Shaan",
+    img: "cover",
+    src: "music-45"
+  },
+                {
+    name: "Thare Vaaste",
+    artist: "Parmanu",
+    img: "cover",
+    src: "music-46"
+  },
+               {
+    name: "Soch Na Sake",
+    artist: "Arijit Singh",
+    img: "cover",
+    src: "music-47"
+  },  
   
   // like this paste it and remember to give comma after ending of this bracket }
   // {
