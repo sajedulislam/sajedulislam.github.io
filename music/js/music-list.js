@@ -322,6 +322,12 @@ let allMusic = [
     img: "cover",
     src: "music-51"
   },
+                     {
+    name: "Tirish Bochhor",
+    artist: "Hyder Husyn",
+    img: "cover",
+    src: "music-52"
+  },
   
   // like this paste it and remember to give comma after ending of this bracket }
   // {
