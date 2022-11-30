@@ -291,7 +291,25 @@ let allMusic = [
     artist: "Arijit Singh",
     img: "cover",
     src: "music-47"
-  },  
+  },
+                 {
+    name: "Oporadhi",
+    artist: "Arman_Alif",
+    img: "cover",
+    src: "music-48"
+  },
+                   {
+    name: "Valobasha_Chera_Ful",
+    artist: "FA_Sumon",
+    img: "cover",
+    src: "music-49"
+  },
+                   {
+    name: "Faishha Gesi",
+    artist: "Hyder Husyn",
+    img: "cover",
+    src: "music-50"
+  },
   
   // like this paste it and remember to give comma after ending of this bracket }
   // {
