@@ -316,12 +316,7 @@ let allMusic = [
     img: "cover",
     src: "music-51"
   },
-                   {
-    name: "Shorkari Officer",
-    artist: "Hyder Husyn",
-    img: "cover",
-    src: "music-51"
-  },
+
                      {
     name: "Tirish Bochhor",
     artist: "Hyder Husyn",
