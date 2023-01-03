@@ -329,6 +329,62 @@ let allMusic = [
     src: "music-52"
   },
   
+                     {
+    name: "Kabhi Jo Baadal Barse - Male",
+    artist: "Arijit Singh",
+    img: "cover",
+    src: "music-53"
+  },
+  
+                     {
+    name: "Kabhi Jo Baadal Barse - Female",
+    artist: "Shreya Ghoshal",
+    img: "cover",
+    src: "music-54"
+  },
+  
+                    {
+    name: "Kabhii Tumhhe - Male",
+    artist: "Shershaah",
+    img: "cover",
+    src: "music-55"
+  },
+  
+                   {
+    name: "Kabhii Tumhhe - Female",
+    artist: "Shershaah",
+    img: "cover",
+    src: "music-56"
+  },
+
+                   {
+    name: "Darasal - Raabta",
+    artist: "Raabta",
+    img: "cover",
+    src: "music-57"
+  },  
+ 
+                   {
+    name: "Raabta - Title Song",
+    artist: "Arijit Singh",
+    img: "cover",
+    src: "music-58"
+  }, 
+ 
+                   {
+    name: "Raabta - Ik Vaari Aa",
+    artist: "Arijit Singh",
+    img: "cover",
+    src: "music-59"
+  },  
+ 
+                   {
+    name: "Raabta - Lambiyaan Si Judaiyaan",
+    artist: "Arijit Singh",
+    img: "cover",
+    src: "music-60"
+  },
+ 
   // like this paste it and remember to give comma after ending of this bracket }
   // {
   //   name: "Here is the music name",
