@@ -380,6 +380,26 @@ let allMusic = [
     src: "music-60"
   },
  
+                 {
+    name: "Aashiqui 2-The Love Theme",
+    artist: "Aashiqui 2",
+    img: "cover",
+    src: "music-61"
+  },
+                 {
+    name: "Hum Mar Jayenge",
+    artist: "Aashiqui 2",
+    img: "cover",
+    src: "music-62"
+  },
+                 {
+    name: "Meri Aashiqui",
+    artist: "Aashiqui 2",
+    img: "cover",
+    src: "music-63"
+  },
+ 
+  
   // like this paste it and remember to give comma after ending of this bracket }
   // {
   //   name: "Here is the music name",
