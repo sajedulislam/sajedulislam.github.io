@@ -399,6 +399,40 @@ let allMusic = [
     src: "music-63"
   },
  
+                {
+    name: "Allah Ke Bande",
+    artist: "Kailash Kher",
+    img: "cover",
+    src: "music-64"
+  },
+ 
+                {
+    name: "Tum Hi Ho",
+    artist: "Aashiqui 2",
+    img: "cover",
+    src: "music-65"
+  },
+ 
+                {
+    name: "Piya Aaye Na",
+    artist: "Aashiqui 2",
+    img: "cover",
+    src: "music-66"
+  },
+ 
+                {
+    name: "Sunn Raha Hai - Male",
+    artist: "Aashiqui 2",
+    img: "cover",
+    src: "music-67"
+  },
+ 
+                {
+    name: "Sunn Raha Hai - Female",
+    artist: "Aashiqui 2",
+    img: "cover",
+    src: "music-68"
+  },
   
   // like this paste it and remember to give comma after ending of this bracket }
   // {
