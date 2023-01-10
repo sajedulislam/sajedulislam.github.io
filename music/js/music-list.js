@@ -523,7 +523,25 @@ let allMusic = [
     img: "cover",
     src: "music-83"
   },
-     
+             {
+    name: "Kaun Tujhe",
+    artist: "MS Dhoni",
+    img: "cover",
+    src: "music-84"
+  },
+             {
+    name: "Manike Mage Hithe",
+    artist: "Thank God",
+    img: "cover",
+    src: "music-85"
+  },
+             {
+    name: "Beast Mode",
+    artist: "Beast",
+    img: "cover",
+    src: "music-86"
+  },
+      
   
   // like this paste it and remember to give comma after ending of this bracket }
   // {
