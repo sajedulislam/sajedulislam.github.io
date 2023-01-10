@@ -451,7 +451,24 @@ let allMusic = [
     img: "cover",
     src: "music-71"
   },
-  
+               {
+    name: "Be Intehaan",
+    artist: "Race 2",
+    img: "cover",
+    src: "music-72"
+  },
+               {
+    name: "Hum Kis Galli",
+    artist: "Atif Aslam",
+    img: "cover",
+    src: "music-73"
+  },
+               {
+    name: "Tere Bin",
+    artist: "Atif Aslam",
+    img: "cover",
+    src: "music-74"
+  },  
   
   
   
