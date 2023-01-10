@@ -469,8 +469,25 @@ let allMusic = [
     img: "cover",
     src: "music-74"
   },  
-  
-  
+              {
+    name: "Jal Pari",
+    artist: "Atif Aslam",
+    img: "cover",
+    src: "music-75"
+  },
+              {
+    name: "Kuch Is Tarah",
+    artist: "Atif Aslam",
+    img: "cover",
+    src: "music-76"
+  },
+              {
+    name: "Tu Jaane Na",
+    artist: "Atif Aslam",
+    img: "cover",
+    src: "music-77"
+  },
+    
   
   // like this paste it and remember to give comma after ending of this bracket }
   // {
