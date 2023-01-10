@@ -505,7 +505,25 @@ let allMusic = [
     img: "cover",
     src: "music-80"
   },
-    
+             {
+    name: "Humko Pyar Hua",
+    artist: "Ready",
+    img: "cover",
+    src: "music-81"
+  },
+             {
+    name: "Hum Tumko Nigaahon Mein",
+    artist: "Guarv",
+    img: "cover",
+    src: "music-82"
+  },
+             {
+    name: "Hai Ishq Ye Kiya Ek Khata",
+    artist: "Bas Ek Pal",
+    img: "cover",
+    src: "music-83"
+  },
+     
   
   // like this paste it and remember to give comma after ending of this bracket }
   // {
