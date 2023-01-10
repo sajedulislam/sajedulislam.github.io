@@ -427,12 +427,33 @@ let allMusic = [
     src: "music-67"
   },
  
-                {
+               {
     name: "Sunn Raha Hai - Female",
     artist: "Aashiqui 2",
     img: "cover",
     src: "music-68"
   },
+               {
+    name: "Aasan Nahin Yahan",
+    artist: "Aashiqui 2",
+    img: "cover",
+    src: "music-69"
+  },
+               {
+    name: "Bhula Dena",
+    artist: "Aashiqui 2",
+    img: "cover",
+    src: "music-70"
+  },
+               {
+    name: "Milne Hai Mujhse",
+    artist: "Aashiqui 2",
+    img: "cover",
+    src: "music-71"
+  },
+  
+  
+  
   
   // like this paste it and remember to give comma after ending of this bracket }
   // {
