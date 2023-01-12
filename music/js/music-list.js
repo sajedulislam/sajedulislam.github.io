@@ -565,6 +565,31 @@ let allMusic = [
     img: "cover",
     src: "music-90"
   },      
+             {
+    name: "Labon Ko",
+    artist: "Bhul Bhulaiya",
+    img: "cover",
+    src: "music-91"
+  },
+             {
+    name: "Namo Namo",
+    artist: "Kedarnath",
+    img: "cover",
+    src: "music-92"
+  },
+             {
+    name: "Bheed Mein",
+    artist: "Tumsa Nahin Dekha",
+    img: "cover",
+    src: "music-93"
+  },
+             {
+    name: "Pee Loon",
+    artist: "Once Upon Mumbai",
+    img: "cover",
+    src: "music-94"
+  },
+ 
   
   // like this paste it and remember to give comma after ending of this bracket }
   // {
