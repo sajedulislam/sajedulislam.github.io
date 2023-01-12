@@ -589,6 +589,18 @@ let allMusic = [
     img: "cover",
     src: "music-94"
   },
+            {
+    name: "Top BGM",
+    artist: "Tushar",
+    img: "cover",
+    src: "music-95"
+  },
+            {
+    name: "Kabali - Neruppu Da",
+    artist: "Kabali",
+    img: "cover",
+    src: "music-96"
+  },
  
   
   // like this paste it and remember to give comma after ending of this bracket }
