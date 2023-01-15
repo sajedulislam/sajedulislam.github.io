@@ -601,7 +601,30 @@ let allMusic = [
     img: "cover",
     src: "music-96"
   },
- 
+            {
+    name: "Maine Chun Liya",
+    artist: "Dil Maange More",
+    img: "cover",
+    src: "music-97"
+  },
+            {
+    name: "Gustakh Dil Tere Liye",
+    artist: "Dil Maange More",
+    img: "cover",
+    src: "music-98"
+  },
+            {
+    name: "Aisa Deewana",
+    artist: "Dil Maange More",
+    img: "cover",
+    src: "music-99"
+  },
+            {
+    name: "Tu Hi Meri Shab Hai",
+    artist: "Gangster",
+    img: "cover",
+    src: "music-100"
+  },
   
   // like this paste it and remember to give comma after ending of this bracket }
   // {
