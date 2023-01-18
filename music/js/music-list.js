@@ -625,6 +625,38 @@ let allMusic = [
     img: "cover",
     src: "music-100"
   },
+             {
+    name: "Phir Mohabbat",
+    artist: "Murder 2",
+    img: "cover",
+    src: "music-101"
+  },
+             {
+    name: "Teri Meri",
+    artist: "Bodygurd",
+    img: "cover",
+    src: "music-102"
+  },
+            {
+    name: "Zara Sa",
+    artist: "Jannat",
+    img: "cover",
+    src: "music-103"
+  },
+           {
+    name: "Sanki (Rap)",
+    artist: "Yeh Saali Aashiqui",
+    img: "cover",
+    src: "music-104"
+  },
+ 
+           {
+    name: "To Phir Aao",
+    artist: "Mustafa Zahid",
+    img: "cover",
+    src: "music-105"
+  },
+  
   
   // like this paste it and remember to give comma after ending of this bracket }
   // {
