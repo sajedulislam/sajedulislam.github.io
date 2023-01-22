@@ -649,13 +649,61 @@ let allMusic = [
     img: "cover",
     src: "music-104"
   },
- 
            {
     name: "To Phir Aao",
     artist: "Mustafa Zahid",
     img: "cover",
     src: "music-105"
   },
+           {
+    name: "Dard Karaara",
+    artist: "Kumar Sanu",
+    img: "cover",
+    src: "music-106"
+  },
+           {
+    name: "Rabba",
+    artist: "Heropanti",
+    img: "cover",
+    src: "music-107"
+  },
+            {
+    name: "Chori Chori Dil Tera Churayenge",
+    artist: "Phool Aur Angaar",
+    img: "cover",
+    src: "music-108"
+  },
+           {
+    name: "Duniya Mein Kitni Hain Nafratien",
+    artist: "Mohabbatein",
+    img: "cover",
+    src: "music-109"
+  },
+           {
+    name: "Aankhein Khuli Hon Ya",
+    artist: "Mohabbatein",
+    img: "cover",
+    src: "music-110"
+  },
+           {
+    name: "Hum Ko Humi Se Churalo",
+    artist: "Mohabbatein",
+    img: "cover",
+    src: "music-111"
+  },
+            {
+    name: "Soni Soni Aakhiyon Wali",
+    artist: "Mohabbatein",
+    img: "cover",
+    src: "music-112"
+  },
+             {
+    name: "Pairon Mein Bandhan Hai",
+    artist: "Mohabbatein",
+    img: "cover",
+    src: "music-113"
+  },
+  
   
   
   // like this paste it and remember to give comma after ending of this bracket }
