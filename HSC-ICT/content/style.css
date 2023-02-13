@@ -6,8 +6,8 @@
   transition: all 0.5s ease;
 }
 body {
-  width: 100vw;
-  height: 100vh;
+  width: 1020px;
+  height: 680px;
   display: flex;
   align-items: center;
   justify-content: center;
