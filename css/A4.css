@@ -1,0 +1,80 @@
+:root {
+  --bleeding: 0.5cm;
+  --margin: 1cm;
+}
+
+@page {
+  size: A4;
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  background: rgb(204, 204, 204);
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  color: green;
+}
+
+h2 {
+  color: blue;
+}
+
+.watermark {
+    position: relative;
+	align-items: center;
+	opacity: 0.2;
+    display: flex;
+    justify-content: center;
+	left: 0px;
+    position: absolute;
+    top: 0px;
+	height: 100%;
+    width: 100%;
+	font-size: 3rem;
+	color: red;
+    font-weight: bold;
+    text-transform: uppercase;
+	transform: rotate(-45deg);
+}
+
+.page {
+  display: inline-block;
+  position: relative;
+  height: 297mm;
+  width: 210mm;
+  font-size: 12pt;
+  margin: 2em auto;
+  padding: calc(var(--bleeding) + var(--margin));
+  box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
+  background: white;
+}
+
+@media screen {
+  .page::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: calc(100% - var(--bleeding) * 2);
+    height: calc(100% - var(--bleeding) * 2);
+    margin: var(--bleeding);
+    outline: thin dashed black;
+    pointer-events: none;
+    z-index: 9999;
+  }
+}
+
+@media print {
+  .page {
+    margin: 0;
+    overflow: hidden;
+  }
+}
