@@ -704,6 +704,19 @@ let allMusic = [
     src: "music-113"
   },
   
+             {
+    name: "Pota Pota",
+    artist: "Aya Nakamura Copines",
+    img: "cover",
+    src: "music-114"
+  },
+  
+             {
+    name: "Kabhi Yaad Kare Jo Zamana",
+    artist: "Bhuj: Desh Mere",
+    img: "cover",
+    src: "music-115"
+  },
   
   
   // like this paste it and remember to give comma after ending of this bracket }
