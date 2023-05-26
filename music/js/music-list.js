@@ -718,6 +718,12 @@ let allMusic = [
     src: "music-115"
   },
   
+             {
+    name: "MAHABHARAT AUDIO TRACKS",
+    artist: "BGM",
+    img: "cover",
+    src: "music-116"
+  },
   
   // like this paste it and remember to give comma after ending of this bracket }
   // {
