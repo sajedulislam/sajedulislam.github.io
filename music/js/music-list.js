@@ -746,6 +746,13 @@ let allMusic = [
     src: "music-119"
   },
   
+              {
+    name: "Tumi Bondhu Kala Pakhi",
+    artist: "Bengali",
+    img: "cover",
+    src: "music-120"
+  },
+  
   // like this paste it and remember to give comma after ending of this bracket }
   // {
   //   name: "Here is the music name",
