@@ -753,6 +753,20 @@ let allMusic = [
     src: "music-120"
   },
   
+                 {
+    name: "Tor Ek Kothaye",
+    artist: "Arijit Singh",
+    img: "cover",
+    src: "music-121"
+  },
+  
+              {
+    name: "Tui Borsha Bikeler Dheu",
+    artist: "Bengali",
+    img: "cover",
+    src: "music-122"
+  },
+  
   // like this paste it and remember to give comma after ending of this bracket }
   // {
   //   name: "Here is the music name",
