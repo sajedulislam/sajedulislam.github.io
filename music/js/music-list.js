@@ -773,6 +773,21 @@ let allMusic = [
     img: "cover",
     src: "music-123"
   },
+
+          {
+    name: "Bachna Ae Haseeno",
+    artist: "Bachna Ae Haseeno",
+    img: "cover",
+    src: "music-124"
+  },
+
+         {
+    name: "Khuda Jaane",
+    artist: "Bachna Ae Haseeno",
+    img: "cover",
+    src: "music-125"
+  },
+
   
   // like this paste it and remember to give comma after ending of this bracket }
   // {
