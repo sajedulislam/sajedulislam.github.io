@@ -766,6 +766,13 @@ let allMusic = [
     img: "cover",
     src: "music-122"
   },
+
+            {
+    name: "Tu Tu Hai Wahi",
+    artist: "Yeh Vaada Raha",
+    img: "cover",
+    src: "music-123"
+  },
   
   // like this paste it and remember to give comma after ending of this bracket }
   // {
