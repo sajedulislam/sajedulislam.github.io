@@ -788,6 +788,20 @@ let allMusic = [
     src: "music-125"
   },
 
+         {
+    name: "Calm Down",
+    artist: "Rema, Selena Gomez",
+    img: "cover",
+    src: "music-126"
+  },
+
+        {
+    name: "Up",
+    artist: "INNA x Sean Paul",
+    img: "cover",
+    src: "music-127"
+  },
+
   
   // like this paste it and remember to give comma after ending of this bracket }
   // {
