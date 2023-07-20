@@ -888,3 +888,4 @@ let allMusic = [
   //   src: "music name here - remember img must be in .mp3 formate and it's inside the songs folder of this project folder"
   // }
 ];
+
