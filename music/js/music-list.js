@@ -831,45 +831,45 @@ let allMusic = [
   },
   
               {
-    name: "Tui Borsha Bikeler Dheu",
-    artist: "Bengali",
+    name: "Tomar Jonno",
+    artist: "Balam",
     img: "cover",
-    src: "music-122"
+    src: "music-132"
   },
 
             {
-    name: "Tu Tu Hai Wahi",
-    artist: "Yeh Vaada Raha",
+    name: "Ek Mutho Roddur",
+    artist: "Balam",
     img: "cover",
-    src: "music-123"
+    src: "music-133"
   },
 
           {
-    name: "Bachna Ae Haseeno",
-    artist: "Bachna Ae Haseeno",
+    name: "ESHWAR PRIYOTOMA",
+    artist: "PRINCE MAHMUD",
     img: "cover",
-    src: "music-124"
+    src: "music-134"
   },
 
          {
-    name: "Khuda Jaane",
-    artist: "Bachna Ae Haseeno",
+    name: "O PRIYOTOMA",
+    artist: "BALAM",
     img: "cover",
-    src: "music-125"
+    src: "music-135"
   },
 
          {
     name: "Calm Down",
     artist: "Rema, Selena Gomez",
     img: "cover",
-    src: "music-126"
+    src: "music-136"
   },
 
         {
     name: "Up",
     artist: "INNA x Sean Paul",
     img: "cover",
-    src: "music-127"
+    src: "music-137"
   },
 
   
