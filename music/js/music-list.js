@@ -859,17 +859,24 @@ let allMusic = [
   },
 
          {
-    name: "Calm Down",
-    artist: "Rema, Selena Gomez",
+    name: "Jege Achi",
+    artist: "Deewana 2013",
     img: "cover",
     src: "music-136"
   },
 
         {
-    name: "Up",
-    artist: "INNA x Sean Paul",
+    name: "Deewana (Title Track)",
+    artist: "Shaan",
     img: "cover",
     src: "music-137"
+  },
+
+          {
+    name: "Mon Majhi Re ",
+    artist: "Arijit Singh",
+    img: "cover",
+    src: "music-138"
   },
 
   
