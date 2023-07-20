@@ -802,6 +802,76 @@ let allMusic = [
     src: "music-127"
   },
 
+                 {
+    name: "Prem Shikari",
+    artist: "Balam",
+    img: "cover",
+    src: "music-128"
+  },
+  
+               {
+    name: "Shuk Pakhi",
+    artist: "Balam Ft. Julee",
+    img: "cover",
+    src: "music-129"
+  },
+  
+              {
+    name: "Aajhor Bristi",
+    artist: "Balam Ft. Julee",
+    img: "cover",
+    src: "music-130"
+  },
+  
+                 {
+    name: "Premer Dhun",
+    artist: "Balam",
+    img: "cover",
+    src: "music-131"
+  },
+  
+              {
+    name: "Tui Borsha Bikeler Dheu",
+    artist: "Bengali",
+    img: "cover",
+    src: "music-122"
+  },
+
+            {
+    name: "Tu Tu Hai Wahi",
+    artist: "Yeh Vaada Raha",
+    img: "cover",
+    src: "music-123"
+  },
+
+          {
+    name: "Bachna Ae Haseeno",
+    artist: "Bachna Ae Haseeno",
+    img: "cover",
+    src: "music-124"
+  },
+
+         {
+    name: "Khuda Jaane",
+    artist: "Bachna Ae Haseeno",
+    img: "cover",
+    src: "music-125"
+  },
+
+         {
+    name: "Calm Down",
+    artist: "Rema, Selena Gomez",
+    img: "cover",
+    src: "music-126"
+  },
+
+        {
+    name: "Up",
+    artist: "INNA x Sean Paul",
+    img: "cover",
+    src: "music-127"
+  },
+
   
   // like this paste it and remember to give comma after ending of this bracket }
   // {
