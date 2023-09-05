@@ -878,6 +878,27 @@ let allMusic = [
     img: "cover",
     src: "music-138"
   },
+  
+         {
+    name: "Hukum - The Jailer",
+    artist: "Anirudh",
+    img: "cover",
+    src: "music-139"
+  },
+
+        {
+    name: "Vedalam The Theri Theme",
+    artist: "Anirudh",
+    img: "cover",
+    src: "music-140"
+  },
+
+          {
+    name: "Lokkhi Sona",
+    artist: "Pritam Deb",
+    img: "cover",
+    src: "music-141"
+  },
 
   
   // like this paste it and remember to give comma after ending of this bracket }
