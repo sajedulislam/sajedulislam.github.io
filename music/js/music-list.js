@@ -921,6 +921,26 @@ let allMusic = [
     src: "music-144"
   },
 
+          { 
+    name: "Aa Jao Meri Tamanna",
+    artist: "Ajab Prem Ki Ghazab Kahani",
+    img: "cover",
+    src: "music-145"
+  },
+
+         { 
+    name: "Didha",
+    artist: "Habib Ft. Nancy",
+    img: "cover",
+    src: "music-146"
+  },
+
+        { 
+    name: "Main Tera Dhadkan Teri",
+    artist: "Ajab Prem Ki Ghazab Kahani",
+    img: "cover",
+    src: "music-147"
+  },
   
   // like this paste it and remember to give comma after ending of this bracket }
   // {
