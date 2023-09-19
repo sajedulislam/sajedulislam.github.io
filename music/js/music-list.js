@@ -962,7 +962,27 @@ let allMusic = [
     img: "cover",
     src: "music-150"
   },
-  
+
+     {  
+    name: "Valo Achi Valo Theko",
+    artist: "Rudra Mohammad Shahidullah",
+    img: "cover",
+    src: "music-151"
+  },
+
+      {
+    name: "Nithua Pathare",
+    artist: "Fazlur Rahman Babu",
+    img: "cover",
+    src: "music-152"
+  },
+
+        { 
+    name: "Tumi Mor Jiboner Bhabona",
+    artist: "Andrew Kishore & Kanak Chapa",
+    img: "cover",
+    src: "music-153"
+  },
   
   // like this paste it and remember to give comma after ending of this bracket }
   // {
