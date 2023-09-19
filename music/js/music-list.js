@@ -983,6 +983,35 @@ let allMusic = [
     img: "cover",
     src: "music-153"
   },
+
+        { 
+    name: "Tu Jaane Na",
+    artist: "Ajab Prem Ki Ghazab Kahani",
+    img: "cover",
+    src: "music-154"
+  },
+
+         {
+    name: "Jao Pakhi Bolo Tare",
+    artist: "Krishnokoli",
+    img: "cover",
+    src: "music-155"
+  },
+  
+        {  
+    name: "Agey Jodi",
+    artist: "Momtaj",
+    img: "cover",
+    src: "music-156"
+  },
+
+          { 
+    name: "Tu Jaane Na Unplugged Version",
+    artist: "Ajab Prem Ki Ghazab Kahani",
+    img: "cover",
+    src: "music-157"
+  },
+
   
   // like this paste it and remember to give comma after ending of this bracket }
   // {
