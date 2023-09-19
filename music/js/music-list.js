@@ -899,6 +899,27 @@ let allMusic = [
     img: "cover",
     src: "music-141"
   },
+  
+          {
+    name: "Mere Humsafar",
+    artist: "All Is Well",
+    img: "cover",
+    src: "music-142"
+  },
+  
+          {
+    name: "Haoway_Haoway",
+    artist: "Habib_Nancy",
+    img: "cover",
+    src: "music-143"
+  },
+  
+          {
+    name: "Hridoyer Kotha",
+    artist: "Habib ft. Shirin",
+    img: "cover",
+    src: "music-144"
+  },
 
   
   // like this paste it and remember to give comma after ending of this bracket }
