@@ -941,6 +941,28 @@ let allMusic = [
     img: "cover",
     src: "music-147"
   },
+
+      {   
+    name: "Bhalo_Bashbo_Bashbore",
+    artist: "Habib",
+    img: "cover",
+    src: "music-148"
+  },
+
+      {  
+    name: "Tera Hone Laga Hoon",
+    artist: "Ajab Prem Ki Ghazab Kahani",
+    img: "cover",
+    src: "music-149"
+  },
+  
+      {   
+    name: "Shonar Moina",
+    artist: "Arnob",
+    img: "cover",
+    src: "music-150"
+  },
+  
   
   // like this paste it and remember to give comma after ending of this bracket }
   // {
