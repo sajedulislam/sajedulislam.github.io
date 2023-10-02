@@ -1012,6 +1012,12 @@ let allMusic = [
     src: "music-157"
   },
 
+            { 
+    name: "Kar Har Maidaan Fateh",
+    artist: "Sanju",
+    img: "cover",
+    src: "music-158"
+  },
   
   // like this paste it and remember to give comma after ending of this bracket }
   // {
