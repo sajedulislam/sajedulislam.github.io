@@ -1018,6 +1018,14 @@ let allMusic = [
     img: "cover",
     src: "music-158"
   },
+
+         { 
+    name: "Sun Re Sajaniya",
+    artist: "Ali Zafar",
+    img: "cover",
+    src: "music-159"
+  },
+  
   
   // like this paste it and remember to give comma after ending of this bracket }
   // {
