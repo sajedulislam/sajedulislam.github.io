@@ -1030,7 +1030,7 @@ let allMusic = [
     name: "Animal",
     artist: "Animal - 2023",
     img: "cover",
-    src: "music-159"
+    src: "music-160"
   },
   
   // like this paste it and remember to give comma after ending of this bracket }
