@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Primary Meta Tags -->
+    <title>Music Player - Listen Music Online</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <meta name="title" content="Music Player - Listen Music Online">
+    <meta name="description" content="Music Player is a simple project developed using JavaScript, CSS, and HTML. Listen your self-made songs collection online.">
+    <meta name="keywords" content="Music, Music Player, Audio Player, PlayList, Songs, Music Collection, HTML, CSS, JS, Music App">
+    <meta name="author" content="Sajedul Islam">
+    <meta name="keywords" content="Music, Music Player, Audio Player, PlayList, Songs, Music Collection, HTML, CSS, JS, Music App, Download songs, music, mp3 songs online, listen songs, MP3 songs, free online songs, online latest songs, free music, popular songs, movie songs, listen to songs online, listen to free music, online music, free music online, latest movie songs, hindi songs, music albums, free music, online music, english songs, bollywood songs, hollywood songs, playlists music, music online, hindi songs, play songs, online songs, bangla songs, bengali mp3">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://sajedulislam.github.io/"/>
+
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="APlayer.min.css">
+<link href="https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+
+<header>
+    <h1>Music Player</h1>
+</header>
+
+<div class="container">
+    <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Search music...">
+		</br></br>
+        <button id="searchButton">Search</button>
+		<button id="downloadButton">Download</button>
+    </div>
+	
+	<center><div class="social-buttons">
+        <button class="social-button" onclick="window.open('https://api.whatsapp.com/send?phone=%2B8801515283462', '_blank')"><i class="fa fa-whatsapp" style="font-size:24px"></i></button>&nbsp;
+        <button class="social-button" onclick="window.open('https://m.me/Sajedul.IT', '_blank')"><i class="fa fa-facebook-messenger" style="font-size:24px"></i></button>&nbsp;
+        <button class="social-button" onclick="window.open('https://www.instagram.com/0.tushar/', '_blank')"><i class="fa fa-instagram" style="font-size:24px"></i></button>&nbsp;
+        <button class="social-button" onclick="window.open('https://www.facebook.com/Sajedul.IT/', '_blank')"><i class="fa fa-facebook" style="font-size:24px"></i></button>
+	</div></center></br>
+    <div class="music-player">
+        <div class="controls">
+            <button id="prevButton" class="control-button"><i class="fa fa-step-backward"></i></button>
+            <button id="playPauseButton" class="control-button"><i class="fa fa-play"></i></button>
+            <button id="nextButton" class="control-button"><i class="fa fa-step-forward"></i></button>
+        </div>
+        <div class="aplayer" id="aplayer"></div>
+    </div>	
+</div>
+
+<div>
+  <div class="responsive-urls">
+     <a href="https://on2b.github.io/dristy/index.html" target="_blank">Dristy</a>
+     <a href="https://on2b.github.io/ehub/index.html" target="_blank">eHub</a>
+     <a href="https://on2b.github.io/LE/index.html" target="_blank">L & E</a>
+  </div>
+</div>
+
+<footer>
+    <p style="color: white;">Copyright © <a href="https://sajedulislam.github.io" style="color: pink;">Sajedul Islam</a></p>
+</footer>
+
+<script src="APlayer.min.js"></script>
+<script src="music-player.js"></script>
+
+<script type="text/javascript">
+	document.addEventListener('contextmenu', 
+             event => event.preventDefault());
+</script>
+
+</body>
+</html>
