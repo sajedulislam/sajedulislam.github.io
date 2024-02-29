@@ -115,6 +115,12 @@ const ap = new APlayer({
             cover: 'https://i1.sndcdn.com/artworks-000054419343-5rsjv1-t500x500.jpg'
         },
         {
+            name: 'Sharthopor',
+            artist: 'Trap',
+            url: 'mp3/music-14.mp3',
+            cover: ''
+        },
+        {
             name: 'Where do u go',
             artist: 'No Mercy',
             url: 'mp3/music-17.mp3',
