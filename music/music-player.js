@@ -525,7 +525,7 @@ const ap = new APlayer({
         {
             name: 'Fighter Theme',
             artist: 'Fighter 2024',
-            url: 'mp3/music-155.mp3',
+            url: 'mp3/Fighter.mp3',
             cover: ''
         },
     ],
