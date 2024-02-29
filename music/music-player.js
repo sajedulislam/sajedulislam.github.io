@@ -121,6 +121,18 @@ const ap = new APlayer({
             cover: ''
         },
         {
+            name: 'Shihoron',
+            artist: 'Miftah Zaman',
+            url: 'mp3/music-15.mp3',
+            cover: ''
+        },
+        {
+            name: 'Khola Janala',
+            artist: 'SWAT',
+            url: 'mp3/music-16.mp3',
+            cover: ''
+        },
+        {
             name: 'Where do u go',
             artist: 'No Mercy',
             url: 'mp3/music-17.mp3',
