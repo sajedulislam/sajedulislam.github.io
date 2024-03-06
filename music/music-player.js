@@ -199,6 +199,24 @@ const ap = new APlayer({
             cover: ''
         },
         {
+            name: 'One Love',
+            artist: 'Blue',
+            url: 'mp3/music-28.mp3',
+            cover: ''
+        },	
+        {
+            name: 'She Je Boshe Ache',
+            artist: 'Arnob',
+            url: 'mp3/music-29.mp3',
+            cover: ''
+        },	
+        {
+            name: 'Nitol Paye',
+            artist: 'Fuad',
+            url: 'mp3/music-30.mp3',
+            cover: ''
+        },		
+        {
             name: 'Tomar_Jonno',
             artist: 'Arnob',
             url: 'mp3/music-33.mp3',
