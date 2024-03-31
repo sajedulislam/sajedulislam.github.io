@@ -594,6 +594,12 @@ const ap = new APlayer({
             url: 'mp3/Fighter.mp3',
             cover: ''
         },
+        {
+            name: 'HanuMan BGM',
+            artist: 'HanuMan PVCU 2024',
+            url: 'mp3/HanuMan.mp3',
+            cover: ''
+        },
     ],
 	
 });
