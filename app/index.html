@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #9c27b0; /* Changed background color to purple */
+        }
+
+        header {
+            background-color: #673ab7; /* Changed header color to a darker shade of purple */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .app {
+            width: 300px;
+            margin: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .app:hover {
+            transform: translateY(-10px);
+        }
+
+        .app img {
+            width: 100%;
+            border-radius: 10px 10px 0 0;
+        }
+
+        .app h2 {
+            margin-top: 10px;
+            font-size: 1.2em;
+            color: #333;
+        }
+
+        .app p {
+            margin-top: 10px;
+            font-size: 0.9em;
+            color: #666;
+        }
+
+        .download-btn {
+            display: block;
+            width: 80%;
+            margin: 0 auto;
+            background-color: #673ab7; /* Changed button color to match header */
+            color: white;
+            text-align: center;
+            padding: 8px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        .download-btn:hover {
+            background-color: #512da8; /* Darker shade on hover */
+        }
+
+        @media screen and (max-width: 600px) {
+            .app {
+                width: calc(100% - 40px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>App Store</h1>
+    </header>
+    <div class="container">
+        <div class="app">
+            <img src="thumbnail1.jpg" alt="App 1">
+            <h2>Islamic Life</h2>
+            <p>Read, study, and learn The Noble Quran. We hope to make it easy for everyone.</p>
+            <a href="https://islamiclife.github.io/app.apk" class="download-btn" download>Download</a>
+        </div>
+    </div>
+</body>
+</html>
