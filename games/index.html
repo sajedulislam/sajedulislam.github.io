@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play Games</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #9c27b0; /* Changed background color to purple */
+        }
+
+        header {
+            background-color: #673ab7; /* Changed header color to a darker shade of purple */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .app {
+            width: 300px;
+            margin: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .app:hover {
+            transform: translateY(-10px);
+        }
+
+        .app img {
+            width: 100%;
+            border-radius: 10px 10px 0 0;
+        }
+
+        .app h2 {
+            margin-top: 10px;
+            font-size: 1.2em;
+            color: #333;
+        }
+
+        .app p {
+            margin-top: 10px;
+            font-size: 0.9em;
+            color: #666;
+        }
+
+        .download-btn {
+            display: block;
+            width: 80%;
+            margin: 0 auto;
+            background-color: #673ab7; /* Changed button color to match header */
+            color: white;
+            text-align: center;
+            padding: 8px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        .download-btn:hover {
+            background-color: #512da8; /* Darker shade on hover */
+        }
+
+        @media screen and (max-width: 600px) {
+            .app {
+                width: calc(100% - 40px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Play Games</h1>
+    </header>
+    <div class="container">
+        <div class="app">
+            <img src="thumbnail1.jpg" alt="App 1">
+            <h2>TicTacToe</h2>
+            <p>X's and O's clash in strategic grid warfare.</p>
+            <a href="https://sajedulislam.github.io/games/TicTacToe/" target="_blank" class="download-btn" download>Download</a>
+        </div>
+        <div class="app">
+            <img src="thumbnail2.jpg" alt="App 1">
+            <h2>2048</h2>
+            <p>Merge tiles to reach the elusive 2048 square.</p>
+            <a href="https://sajedulislam.github.io/games/2048/" target="_blank" class="download-btn" download>Download</a>
+        </div>
+        <div class="app">
+            <img src="thumbnail3.jpg" alt="App 1">
+            <h2>Hextris</h2>
+            <p>Rotate hexagons to match colors and avoid collision.</p>
+            <a href="https://sajedulislam.github.io/games/hextris/" target="_blank" class="download-btn" download>Download</a>
+        </div>
+        <div class="app">
+            <img src="thumbnail4.jpg" alt="App 1">
+            <h2>FlappyBird</h2>
+            <p>Tap to navigate the bird through challenging obstacles.</p>
+            <a href="https://sajedulislam.github.io/games/FlappyBrid/" target="_blank" class="download-btn" download>Download</a>
+        </div>
+        <div class="app">
+            <img src="thumbnail5.jpg" alt="App 1">
+            <h2>HappyDuets</h2>
+            <p>Harmonize melodies in joyful musical duets challenge.</p>
+            <a href="https://sajedulislam.github.io/games/HappyDuets/" target="_blank" class="download-btn" download>Download</a>
+        </div>
+    </div>
+</body>
+</html>
