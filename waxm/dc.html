@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WhatsApp Exam Decryption</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  .container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #666;
+  }
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    resize: vertical; /* Allow vertical resizing */
+    min-height: 100px; /* Minimum height of textarea */
+  }
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto;
+    transition: background-color 0.3s;
+  }
+  button:hover {
+    background-color: #45a049;
+  }
+</style>
+<script disable-devtool-auto src='https://on2b.github.io/file/ddt.js'></script>
+</head>
+<body>
+
+<div class="container">
+  <h2>WhatsApp Exam Decryption</h2>
+  <p align="center">System Developed By: <a href="https://sajedulislam.github.io" target="_blank">Sajedul Islam</a></p>
+  <form id="decryptForm">
+    <label for="encryptedMessage">Encrypted WhatsApp Code:</label>
+    <textarea id="encryptedMessage" name="encryptedMessage" required></textarea>
+    <button type="submit" id="decryptBtn">Decrypt</button>
+  </form>
+  <div id="decryptedText" style="display: none;">
+    <h3>Decrypted Text:</h3>
+    <p id="decryptedContent"></p>
+    <h3>Auto Text Generation:</h3>
+    <pre id="autoTextGeneration"></pre> <!-- Changed <p> to <pre> -->
+    <button id="copyTextBtn">Copy Text</button>
+  </div>
+</div>
+
+<script>
+  // Unicode-based decryption function
+  function decrypt(text) {
+    var result = "";
+    for (var i = 0; i < text.length; i++) {
+      var charCode = text.charCodeAt(i);
+      // Reverse the encryption process by shifting the character code back by 5
+      var decryptedCharCode = charCode - 5;
+      result += String.fromCharCode(decryptedCharCode);
+    }
+    return result;
+  }
+
+  document.getElementById("decryptForm").onsubmit = function(event) {
+    event.preventDefault(); // Prevent form submission
+    
+    // Get encrypted message
+    var encryptedMessage = document.getElementById("encryptedMessage").value;
+    
+    // Decrypt message
+    var decryptedMessage = decrypt(encryptedMessage);
+    
+    // Display decrypted message
+    document.getElementById("decryptedContent").textContent = decryptedMessage;
+    document.getElementById("decryptedText").style.display = "block";
+    
+    // Extract information for auto text generation
+    var autoText = "";
+    var parts = decryptedMessage.split('_');
+    if (parts.length >= 7) {
+      autoText += "Name: " + parts[0] + "\n";
+      autoText += "Mobile: " + parts[1] + "\n";
+      autoText += "Exam: " + parts[2] + "\n";
+      autoText += "Answered: " + parts[4] + "\n";
+      autoText += "Obtained Marks: " + parseInt(parts[parts.indexOf('MO') + 1]) + "\n";
+    } else {
+      autoText = "Invalid format";
+    }
+    document.getElementById("autoTextGeneration").textContent = autoText;
+  };
+
+  // Copy text button functionality
+  document.getElementById("copyTextBtn").onclick = function() {
+    var textArea = document.createElement("textarea");
+    textArea.value = document.getElementById("autoTextGeneration").textContent;
+    document.body.appendChild(textArea);
+    textArea.select();
+    document.execCommand("copy");
+    document.body.removeChild(textArea);
+    alert("Text copied!");
+  };
+</script>
+
+</body>
+</html>
