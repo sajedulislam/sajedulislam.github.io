@@ -128,6 +128,13 @@
   var examSelectionSection = document.getElementById('examSelectionSection');
   var startExamSection = document.getElementById('startExamSection');
 
+  // Define the URLs for each exam JS file
+  var examScriptUrls = {
+    "WXT01": "https://sajedulislam.github.io/waxm/WXT01.js",
+    "WXT02": "https://sajedulislam.github.io/waxm/WXT02.js",
+    // Add more URLs for additional exams
+  };
+
   // Event listener for exam selection change
   examSelect.addEventListener('change', function() {
     var selectedExam = examSelect.value;
@@ -143,9 +150,14 @@
 
   // Function to load corresponding exam script
   function loadExamScript(selectedExam) {
-    var script = document.createElement('script');
-    script.src = selectedExam + '.js'; // Load JS file based on selected exam
-    document.head.appendChild(script);
+    var scriptUrl = examScriptUrls[selectedExam];
+    if (scriptUrl) {
+      var script = document.createElement('script');
+      script.src = scriptUrl;
+      document.head.appendChild(script);
+    } else {
+      console.error('No script URL found for selected exam:', selectedExam);
+    }
   }
 
   // Function to check if time limit is exceeded in background
