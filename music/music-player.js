@@ -235,6 +235,24 @@ const ap = new APlayer({
             cover: ''
         },
         {
+            name: 'Shunil_Boruna',
+            artist: 'Mahadi',
+            url: 'mp3/music-34.mp3',
+            cover: ''
+        },
+        {
+            name: 'Gale Lag Ja',
+            artist: 'De Dana Dan',
+            url: 'mp3/music-35.mp3',
+            cover: ''
+        },
+        {
+            name: 'Ik Vaari Aa - Raabta',
+            artist: 'Arijit Singh',
+            url: 'mp3/music-36.mp3',
+            cover: ''
+        },
+        {
             name: 'Thare Vaaste',
             artist: 'Parmanu',
             url: 'mp3/music-46.mp3',
