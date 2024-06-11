@@ -271,6 +271,12 @@ const ap = new APlayer({
             cover: ''
         },
         {
+            name: 'Chahun Main Ya Naa',
+            artist: 'Arijit Singh',
+            url: 'mp3/music-40.mp3',
+            cover: ''
+        },
+        {
             name: 'Thare Vaaste',
             artist: 'Parmanu',
             url: 'mp3/music-46.mp3',
