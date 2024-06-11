@@ -215,7 +215,19 @@ const ap = new APlayer({
             artist: 'Fuad',
             url: 'mp3/music-30.mp3',
             cover: ''
-        },		
+        },	
+        {
+            name: 'Love The Way You Lie',
+            artist: 'Eminem -  ft. Rihanna',
+            url: 'mp3/music-31.mp3',
+            cover: ''
+        },
+        {
+            name: 'Himaloy',
+            artist: 'Debi',
+            url: 'mp3/music-32.mp3',
+            cover: ''
+        },
         {
             name: 'Tomar_Jonno',
             artist: 'Arnob',
