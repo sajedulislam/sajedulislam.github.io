@@ -253,6 +253,24 @@ const ap = new APlayer({
             cover: ''
         },
         {
+            name: 'Aabaad Barbaad',
+            artist: 'Ludo',
+            url: 'mp3/music-37.mp3',
+            cover: ''
+        },
+        {
+            name: 'Aankh Marey',
+            artist: 'Simmba',
+            url: 'mp3/music-38.mp3',
+            cover: ''
+        },
+        {
+            name: 'Hal E Dil - Acoustic',
+            artist: 'Murder 2',
+            url: 'mp3/music-39.mp3',
+            cover: ''
+        },
+        {
             name: 'Thare Vaaste',
             artist: 'Parmanu',
             url: 'mp3/music-46.mp3',
