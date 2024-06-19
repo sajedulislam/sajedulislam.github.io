@@ -277,6 +277,36 @@ const ap = new APlayer({
             cover: ''
         },
         {
+            name: 'Dil Ka Telephone',
+            artist: 'Dream Girl',
+            url: 'mp3/music-41.mp3',
+            cover: ''
+        },
+        {
+            name: 'Radhe Radhe',
+            artist: 'Dream Girl',
+            url: 'mp3/music-42.mp3',
+            cover: ''
+        },
+        {
+            name: 'Main Rahoon Ya Na Rahoon',
+            artist: 'Armaan Malik',
+            url: 'mp3/music-43.mp3',
+            cover: ''
+        },
+        {
+            name: 'O Bekhabar O Bekadar',
+            artist: 'AAction Replayy',
+            url: 'mp3/music-44.mp3',
+            cover: ''
+        },
+        {
+            name: 'Woh Pehli Baar',
+            artist: 'Shaan',
+            url: 'mp3/music-45.mp3',
+            cover: ''
+        },
+        {
             name: 'Thare Vaaste',
             artist: 'Parmanu',
             url: 'mp3/music-46.mp3',
