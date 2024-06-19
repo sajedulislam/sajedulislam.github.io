@@ -313,6 +313,18 @@ const ap = new APlayer({
             cover: ''
         },
         {
+            name: 'Soch Na Sake',
+            artist: 'Arijit Singh',
+            url: 'mp3/music-47.mp3',
+            cover: ''
+        },
+        {
+            name: 'Oporadhi',
+            artist: 'Arman_Alif',
+            url: 'mp3/music-48.mp3',
+            cover: ''
+        },
+        {
             name: 'Faishha Gesi',
             artist: 'Hyder Husyn',
             url: 'mp3/music-50.mp3',
