@@ -10,6 +10,7 @@ My Project List:
 </br> ✔ 3. https://sajedulislam.github.io/games/hextris/
 </br> ✔ 4. https://sajedulislam.github.io/games/FlappyBrid/
 </br> ✔ 5. https://sajedulislam.github.io/games/HappyDuets/
+</br> ✔ 6. https://sajedulislam.github.io/games/ludo/
 6. DesiAd : https://sajedulislam.github.io/DesiAd
 7. Onlinejobshub : https://sajedulislam.github.io/onlinejobshub
 8. Web Music Player : https://sajedulislam.github.io/music
