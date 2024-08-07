@@ -702,6 +702,12 @@ const ap = new APlayer({
             url: 'mp3/HanuMan.mp3',
             cover: ''
         },
+        {
+            name: 'Veera Dheera',
+            artist: 'Kalki 2898',
+            url: 'mp3/VeeraDheera.mp3',
+            cover: ''
+        },	    
     ],
 	
 });
