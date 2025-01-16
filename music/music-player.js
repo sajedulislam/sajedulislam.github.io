@@ -712,13 +712,13 @@ const ap = new APlayer({
             name: 'Dushtu Kokil',
             artist: 'Toofan',
             url: 'mp3/Dushtu_Kokil_Toofan.mp3',
-            cover: ''
+            cover: 'https://cdn.moviefone.com/image-assets/1216385/5TS3piPf3ZqISbRSrJ8lYeGQvfQ.jpg?d=360x540&q=60'
         },
         {
             name: 'Laage Ura Dhura',
             artist: 'Toofan',
             url: 'mp3/Laage_Ura_Dhura_Toofan.mp3',
-            cover: ''
+            cover: 'https://cdn.moviefone.com/image-assets/1216385/5TS3piPf3ZqISbRSrJ8lYeGQvfQ.jpg?d=360x540&q=60'
         },	    
     ],
 	
