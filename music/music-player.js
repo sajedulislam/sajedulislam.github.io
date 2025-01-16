@@ -707,6 +707,18 @@ const ap = new APlayer({
             artist: 'Kalki 2898',
             url: 'mp3/VeeraDheera.mp3',
             cover: ''
+        },	 
+        {
+            name: 'Dushtu Kokil',
+            artist: 'Toofan',
+            url: 'mp3/Dushtu_Kokil_Toofan.mp3',
+            cover: ''
+        },
+        {
+            name: 'Laage Ura Dhura',
+            artist: 'Toofan',
+            url: 'mp3/Laage_Ura_Dhura_Toofan.mp3',
+            cover: ''
         },	    
     ],
 	
