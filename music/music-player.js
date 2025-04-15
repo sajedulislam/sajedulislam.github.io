@@ -724,7 +724,7 @@ const ap = new APlayer({
             name: 'Samandar',
             artist: 'Jubin Nautiyal · Shreya Ghoshal',
             url: 'mp3/Samandar.mp3',
-            cover: 'https://cdn.moviefone.com/image-assets/1216385/5TS3piPf3ZqISbRSrJ8lYeGQvfQ.jpg?d=360x540&q=60'
+            cover: 'https://c.saavncdn.com/018/Kis-Kisko-Pyaar-Karoon-Hindi-2018-20180516-500x500.jpg'
         },    
     ],
 	
