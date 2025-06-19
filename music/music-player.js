@@ -726,6 +726,12 @@ const ap = new APlayer({
             url: 'mp3/Samandar.mp3',
             cover: 'https://c.saavncdn.com/018/Kis-Kisko-Pyaar-Karoon-Hindi-2018-20180516-500x500.jpg'
         },    
+	{
+            name: 'Shudhu Tomari Jonyo',
+            artist: 'Arijit Singh, Shreya Ghoshal',
+            url: 'mp3/ShudhuTomariJonyo.mp3',
+            cover: 'https://images.entertainment.ie/person/w780_vsKbZ211D55d8aDmSZSzUeQo5qB.jpg'
+        },  	    
     ],
 	
 });
