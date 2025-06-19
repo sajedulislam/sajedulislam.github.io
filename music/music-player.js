@@ -731,7 +731,13 @@ const ap = new APlayer({
             artist: 'Arijit Singh, Shreya Ghoshal',
             url: 'mp3/ShudhuTomariJonyo.mp3',
             cover: 'https://images.entertainment.ie/person/w780_vsKbZ211D55d8aDmSZSzUeQo5qB.jpg'
-        },  	    
+        },  	
+	{
+            name: 'Amar Aguner Chhai',
+            artist: 'Raj Barman',
+            url: 'mp3/AmarAgunerChhai.mp3',
+            cover: 'https://c.saavncdn.com/357/Amar-Hiyar-Majhe-Bengali-2023-20230824200006-500x500.jpg'
+        },	    
     ],
 	
 });
