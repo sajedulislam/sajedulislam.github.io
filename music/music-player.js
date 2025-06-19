@@ -731,7 +731,13 @@ const ap = new APlayer({
             artist: 'Arijit Singh, Shreya Ghoshal',
             url: 'mp3/ShudhuTomariJonyo.mp3',
             cover: 'https://images.entertainment.ie/person/w780_vsKbZ211D55d8aDmSZSzUeQo5qB.jpg'
-        },  	
+        }, 
+	{
+            name: 'Egiye De',
+            artist: 'Shudhu Tomari Jonyo',
+            url: 'mp3/EgiyeDe.mp3',
+            cover: 'https://images.entertainment.ie/person/w780_vsKbZ211D55d8aDmSZSzUeQo5qB.jpg'
+        }, 	    
 	{
             name: 'Amar Aguner Chhai',
             artist: 'Raj Barman',
