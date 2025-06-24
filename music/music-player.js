@@ -743,6 +743,12 @@ const ap = new APlayer({
             artist: 'Raj Barman',
             url: 'mp3/AmarAgunerChhai.mp3',
             cover: 'https://c.saavncdn.com/357/Amar-Hiyar-Majhe-Bengali-2023-20230824200006-500x500.jpg'
+        },	
+	{
+            name: 'NISSHASH',
+            artist: 'BORBAAD',
+            url: 'mp3/NISSHASH.mp3',
+            cover: ''
         },	    
     ],
 	
