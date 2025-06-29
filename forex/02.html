@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hedging Strategy Calculator</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f1f5f9;
+      padding: 30px;
+    }
+    .container {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 700px;
+      margin: auto;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h2 {
+      text-align: center;
+    }
+    label, input {
+      display: block;
+      width: 100%;
+      margin: 10px 0;
+    }
+    input {
+      padding: 10px;
+      font-size: 16px;
+    }
+    button {
+      width: 100%;
+      padding: 12px;
+      background: #007bff;
+      color: white;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      margin-top: 10px;
+      cursor: pointer;
+    }
+    table {
+      width: 100%;
+      margin-top: 20px;
+      border-collapse: collapse;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: center;
+    }
+    th {
+      background: #e2e8f0;
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+  <h2>Hedging Strategy Calculator</h2>
+  <label>Entry Price:</label>
+  <input type="number" id="entryPrice" step="0.00001" placeholder="e.g., 108200.00">
+
+  <label>Expected Profit (USD):</label>
+  <input type="number" id="expectedProfit" step="0.01" placeholder="e.g., 0.75">
+
+  <label>Lot Size (optional):</label>
+  <input type="number" id="lotSize" step="0.01" placeholder="e.g., 0.03">
+
+  <button onclick="calculateHedge()">Calculate</button>
+
+  <table id="resultTable" style="display:none">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Entry</th>
+        <th>TP</th>
+        <th>SL</th>
+        <th>Lot Size</th>
+        <th>Est. Profit</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+</div>
+
+<script>
+function calculateHedge() {
+  const entry = parseFloat(document.getElementById('entryPrice').value);
+  const expectedProfit = parseFloat(document.getElementById('expectedProfit').value);
+  const customLot = parseFloat(document.getElementById('lotSize').value);
+
+  if (!entry || !expectedProfit) return;
+
+  const pipDecimal = 0.01; // pip size for BTC/USD (2 digits)
+  const pips = 250;
+  const profitPerPipPerLot = 0.75 / 250; // = 0.003 USD per pip per lot
+  const lotSize = customLot || (expectedProfit / (pips * profitPerPipPerLot));
+  const tp_gap = pips * pipDecimal;
+  const sl_gap = pips * pipDecimal;
+  const profit = (pips * profitPerPipPerLot * lotSize);
+
+  const buyTP = entry + tp_gap;
+  const buySL = entry - sl_gap;
+  const sellTP = entry - tp_gap;
+  const sellSL = entry + sl_gap;
+
+  const tbody = document.querySelector("#resultTable tbody");
+  tbody.innerHTML = `
+    <tr>
+      <td>Buy</td>
+      <td>${entry.toFixed(2)}</td>
+      <td>${buyTP.toFixed(2)}</td>
+      <td>${buySL.toFixed(2)}</td>
+      <td>${lotSize.toFixed(2)}</td>
+      <td>$${profit.toFixed(2)}</td>
+    </tr>
+    <tr>
+      <td>Sell</td>
+      <td>${entry.toFixed(2)}</td>
+      <td>${sellTP.toFixed(2)}</td>
+      <td>${sellSL.toFixed(2)}</td>
+      <td>${lotSize.toFixed(2)}</td>
+      <td>$${profit.toFixed(2)}</td>
+    </tr>
+  `;
+
+  document.getElementById('resultTable').style.display = 'table';
+}
+</script>
+</body>
+</html>
