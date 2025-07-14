@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sure-Fire Forex Strategy - Developed by SAJEDUL ISLAM</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to right, #e3f2fd, #fff);
+      color: #333;
+    }
+    .container {
+      background: #ffffff;
+      border-radius: 12px;
+      padding: 20px;
+      margin: 20px auto;
+      max-width: 960px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    }
+    h2 {
+      text-align: center;
+      color: #0d47a1;
+    }
+    label {
+      font-weight: bold;
+      margin-top: 15px;
+      display: block;
+    }
+    input {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 1em;
+    }
+    button, .action-btn {
+      background: #1976d2;
+      color: #fff;
+      border: none;
+      padding: 12px;
+      font-size: 1em;
+      width: 100%;
+      border-radius: 6px;
+      margin-top: 20px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+    }
+    button:hover, .action-btn:hover {
+      background: #0d47a1;
+    }
+
+	.button-group {
+	  display: flex;
+	  flex-direction: row;
+	  flex-wrap: wrap;
+	  justify-content: center;
+	  align-items: center;
+	  gap: 12px;
+	  margin: 40px auto 20px auto;
+	  max-width: 100%;
+	}
+
+	.button-group a {
+	  display: inline-block;
+	  background: #25d366;
+	  color: white;
+	  text-decoration: none;
+	  text-align: center;
+	  font-size: 1rem;
+	  padding: 12px 24px;
+	  border-radius: 6px;
+	  min-width: 140px;
+	  max-width: 220px;
+	  width: 100%;
+	  box-sizing: border-box;
+	}
+
+
+    .table-responsive {
+      overflow-x: auto;
+      margin-top: 25px;
+    }
+
+    table {
+      width: 100%;
+      min-width: 700px;
+      border-collapse: collapse;
+      font-size: 0.95em;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 10px;
+      text-align: center;
+    }
+    th {
+      background: #bbdefb;
+    }
+    tr:nth-child(even) {
+      background: #f9f9f9;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #e3f2fd;
+      font-size: 0.9em;
+    }
+    footer a {
+      color: #000;
+      text-decoration: underline;
+    }
+	
+	@media (max-width: 400px) {
+	  .button-group a {
+		font-size: 0.9rem;
+		padding: 10px 16px;
+	  }
+	}
+	
+	@media (min-width: 480px) {
+	  .button-group a {
+		width: auto;
+	  }
+	}
+
+    @media (max-width: 600px) {
+      th, td {
+        font-size: 0.85em;
+        padding: 6px;
+      }
+      h2 {
+        font-size: 1.4em;
+      }
+      input, button {
+        font-size: 0.95em;
+      }
+      .button-group {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+      .button-group a {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h2>Sure-Fire Forex Hedging Strategy Calculator</h2>
+
+  <label>Initial Buy Price:</label>
+  <input type="number" step="0.00001" id="price" placeholder="e.g., 1.9830" required>
+
+  <label>Initial Volume (Base Lot):</label>
+  <input type="number" step="0.01" id="volume" placeholder="e.g., 0.1" required>
+
+  <button onclick="calculateHedging()">Generate Strategy</button>
+
+  <div class="table-responsive">
+    <table id="outputTable" style="display:none;">
+      <thead>
+        <tr>
+          <th>Step</th>
+          <th>Order Type</th>
+          <th>Entry Price</th>
+          <th>Volume</th>
+          <th>TP</th>
+          <th>SL</th>
+          <th>Total Volume</th>
+          <th>Estimated Profit</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+
+  <!-- Button Section -->
+	<div class="button-group">
+    <a href="https://one.exnesstrack.org/a/g27rgnz1e0" class="action-btn" style="background:#25d366;" target="_blank">Exness</a>
+    <a href="https://api.whatsapp.com/send?phone=8801515283462&text=Trading" class="action-btn" style="background:#25d366;" target="_blank">WhatsApp</a>
+    </div>
+</div>
+
+<div class="container" style="margin-top: 40px;">
+  <h3>📘 ফরেক্স ট্রেডিং সিগন্যাল ও ক্যান্ডেলস্টিক প্যাটার্ন টিউটোরিয়াল</h3>
+
+  <h4>🔹 ক্যান্ডেলস্টিকের মূল ধারণা</h4>
+  <ul>
+    <li>সবুজ ক্যান্ডেল: বায়ারদের জয়, ক্লোজিং প্রাইস ওপেনিং থেকে বেশি।</li>
+    <li>লাল ক্যান্ডেল: সেলারদের জয়, ক্লোজিং প্রাইস ওপেনিং থেকে কম।</li>
+    <li>উইক ছোট: এক পক্ষ বেশ শক্তিশালী।</li>
+    <li>লম্বা উইক: বাজারে লড়াই চলছে।</li>
+  </ul>
+
+<div style="text-align:center;">
+  <img src="Intro.png" alt="Candlestick Pattern Intro" style="max-width:100%; height:auto; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.1); margin-top:20px; margin-bottom:20px;">
+</div>
+
+  <h4>🔸 একক ক্যান্ডেল প্যাটার্ন</h4>
+  <ul>
+    <li>✅ <a href="Marubozu.png" target="_blank">1. মারুবজু (Marubozu)</a>: কোন উইক নেই — <strong>🔼 বা 🔽 উভয়ই হতে পারে (Trend Strength)</strong></li>
+    <li>✅ <a href="hammer.png" target="_blank">2. হ্যামার (Hammer)</a>: ডাউনট্রেন্ড শেষে — <strong>🔼 বুলিশ রিভার্সাল</strong></li>
+    <li>✅ <a href="inverted-hammer.png" target="_blank">3. ইনভার্টেড হ্যামার</a>: ডাউনট্রেন্ড শেষে — <strong>🔼 বুলিশ সিগন্যাল</strong></li>
+    <li>✅ <a href="shooting-star.png" target="_blank">4. শুটিং স্টার</a>: আপট্রেন্ড শেষে — <strong>🔽 বিয়ারিশ রিভার্সাল</strong></li>
+    <li>✅ <a href="hanging-man.png" target="_blank">5. হ্যাঙ্গিং ম্যান</a>: আপট্রেন্ড শেষে — <strong>🔽 বিয়ারিশ রিভার্সাল</strong></li>
+    <li>✅ <a href="doji.png" target="_blank">6. ডোজি (Doji)</a>: অনিশ্চয়তা — <strong>🔼🔽 উভয় সম্ভাবনা (Indecision)</strong></li>
+    <li>✅ <a href="spinning-top.png" target="_blank">7. স্পিনিং টপ</a>: দুর্বল সিগন্যাল — <strong>🔼🔽 Sideways বা Pause</strong></li>
+  </ul>
+
+  <h4>🔸 দুই ক্যান্ডেল প্যাটার্ন</h4>
+  <ul>
+    <li>✅ <a href="engulfing.png" target="_blank">8. এনগালফিং (Engulfing)</a>: <strong>🔼 বুলিশ বা 🔽 বিয়ারিশ (Trend Reversal)</strong></li>
+    <li>✅ <a href="harami.png" target="_blank">9. হারামি (Harami)</a>: <strong>🔼 বুলিশ বা 🔽 বিয়ারিশ রিভার্সাল</strong></li>
+    <li>✅ <a href="dark-cloud-cover.png" target="_blank">10. পিয়ারসিং লাইন / ডার্ক ক্লাউড কভার</a>: <strong>🔼 বুলিশ বা 🔽 বিয়ারিশ রিভার্সাল</strong></li>
+  </ul>
+
+  <h4>🔸 তিন ক্যান্ডেল প্যাটার্ন</h4>
+  <ul>
+    <li>✅ <a href="three-white-soldiers.png" target="_blank">11. থ্রি হোয়াইট সোল্ডিয়ার</a>: <strong>🔼 শক্তিশালী বুলিশ কনফার্মেশন</strong></li>
+    <li>✅ <a href="three-black-crows.png" target="_blank">12. থ্রি ব্ল্যাক ক্রো</a>: <strong>🔽 শক্তিশালী বিয়ারিশ কনফার্মেশন</strong></li>
+    <li>✅ <a href="Morning_Evening_Star.jpg" target="_blank">13. মর্নিং স্টার / ইভিনিং স্টার</a>: <strong>🔼 বুলিশ বা 🔽 বিয়ারিশ রিভার্সাল</strong></li>
+    <li>✅ <a href="Three_Inside.jpg" target="_blank">14. থ্রি ইনসাইড আপ / ডাউন</a>: <strong>🔼 বা 🔽 ট্রেন্ড রিভার্সাল</strong></li>
+  </ul>
+
+  <h4>🔍 প্র্যাকটিক্যাল সিগন্যাল বিশ্লেষণ</h4>
+  <ul>
+    <li>✅ <strong>ট্রেন্ডের আগে ও পরে:</strong> প্রতিটি প্যাটার্ন আগে ট্রেন্ড নির্ধারণ করুন, শুধু প্যাটার্নের উপর ভিত্তি করে ট্রেড নয়।</li>
+    <li>✅ <strong>কম্বিনেশন ব্যবহার করুন:</strong> RSI, MACD, Bollinger Bands ইত্যাদির সঙ্গে মিলিয়ে কনফার্ম করুন, নিউজ ও মার্কেট সেন্টিমেন্ট খেয়াল করুন।</li>
+  </ul>
+
+  <p><strong>✅ উপসংহার:</strong><br>
+    ফরেক্স মার্কেটে সঠিকভাবে ক্যান্ডেলস্টিক প্যাটার্ন বুঝতে পারলে আপনি খুব দ্রুত ট্রেন্ড বা রিভার্সাল ধরতে পারবেন। তবে শুধুমাত্র প্যাটার্নের উপর নির্ভর না করে, তা অন্যান্য টুলসের সাথে মিলিয়ে ট্রেড করা উচিত।
+  </p>
+</div>
+
+
+<footer>
+  <p><i>Forex Strategy &copy; <a href="https://sajedul-it.blogspot.com" target="_blank">SAJEDUL ISLAM</a></i></p>
+</footer>
+
+<script>
+function calculateHedging() {
+  const entry = parseFloat(document.getElementById('price').value);
+  const baseVol = parseFloat(document.getElementById('volume').value);
+  const pipValue = 10; // Fixed pip value per lot
+  const tp_gap = 0.003; // 30 pips
+  const sl_gap = 0.006; // 60 pips
+  const hedge_gap = 0.003;
+
+  if (!entry || !baseVol) return;
+
+  const lotSeries = Array.from({length: 9}, (_, i) => baseVol * Math.pow(2, i));
+  const tbody = document.querySelector("#outputTable tbody");
+  tbody.innerHTML = "";
+  document.getElementById("outputTable").style.display = "table";
+
+  let totalVolume = 0;
+  let direction = 1;
+  let currentPrice = entry;
+
+  for (let i = 0; i < lotSeries.length; i++) {
+    const volume = lotSeries[i];
+    totalVolume += volume;
+
+    const orderType = direction === 1 ? (i === 0 ? "Buy" : "Buy Stop") : "Sell Stop";
+    const tp = currentPrice + direction * tp_gap;
+    const sl = currentPrice - direction * sl_gap;
+    const estimatedProfit = 30 * volume * pipValue;
+
+    const row = document.createElement("tr");
+    row.innerHTML = `
+      <td>${i + 1}</td>
+      <td>${orderType}</td>
+      <td>${currentPrice.toFixed(5)}</td>
+      <td>${volume.toFixed(2)}</td>
+      <td>${tp.toFixed(5)}</td>
+      <td>${sl.toFixed(5)}</td>
+      <td>${totalVolume.toFixed(2)}</td>
+      <td>$${estimatedProfit.toFixed(2)}</td>
+    `;
+    tbody.appendChild(row);
+
+    direction *= -1;
+    currentPrice += direction * hedge_gap;
+  }
+}
+</script>
+
+</body>
+</html>
