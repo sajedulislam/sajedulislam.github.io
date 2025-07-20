@@ -774,6 +774,12 @@ const ap = new APlayer({
             url: 'mp3/Lamha Lamha Male.mp3',
             cover: 'https://upload.wikimedia.org/wikipedia/en/f/ff/Gangster_poster.jpg'
         },	    
+	{
+            name: 'Ya Ali',
+            artist: 'Gangster',
+            url: 'mp3/Ya Ali.mp3',
+            cover: 'https://upload.wikimedia.org/wikipedia/en/f/ff/Gangster_poster.jpg'
+        },		    
     ],
 	
 });
