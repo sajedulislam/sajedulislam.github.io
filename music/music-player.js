@@ -749,7 +749,16 @@ const ap = new APlayer({
             artist: 'BORBAAD',
             url: 'mp3/NISSHASH.mp3',
             cover: ''
-        },	    
+        },	   
+	{
+            name: 'Lamha Lamha Duet',
+            artist: 'Gangster',
+            url: 'mp3/Lamha Lamha Duet.mp3',
+            cover: 'https://upload.wikimedia.org/wikipedia/en/f/ff/Gangster_poster.jpg'
+        },	
+
+
+	    
     ],
 	
 });
