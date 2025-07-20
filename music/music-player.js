@@ -762,7 +762,12 @@ const ap = new APlayer({
             url: 'mp3/Bheegi Bheegi.mp3',
             cover: 'https://upload.wikimedia.org/wikipedia/en/f/ff/Gangster_poster.jpg'
         },
-
+	{
+            name: 'Tu Hi Meri Shab Hai',
+            artist: 'Gangster',
+            url: 'mp3/Tu Hi Meri Shab Hai.mp3',
+            cover: 'https://upload.wikimedia.org/wikipedia/en/f/ff/Gangster_poster.jpg'
+        },
 	    
     ],
 	
