@@ -768,7 +768,12 @@ const ap = new APlayer({
             url: 'mp3/Tu Hi Meri Shab Hai.mp3',
             cover: 'https://upload.wikimedia.org/wikipedia/en/f/ff/Gangster_poster.jpg'
         },
-	    
+	{
+            name: 'Lamha Lamha Male',
+            artist: 'Gangster',
+            url: 'mp3/Lamha Lamha Male.mp3',
+            cover: 'https://upload.wikimedia.org/wikipedia/en/f/ff/Gangster_poster.jpg'
+        },	    
     ],
 	
 });
