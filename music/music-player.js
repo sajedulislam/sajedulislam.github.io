@@ -756,7 +756,12 @@ const ap = new APlayer({
             url: 'mp3/Lamha Lamha Duet.mp3',
             cover: 'https://upload.wikimedia.org/wikipedia/en/f/ff/Gangster_poster.jpg'
         },	
-
+	{
+            name: 'Bheegi Bheegi',
+            artist: 'Gangster',
+            url: 'mp3/Bheegi Bheegi.mp3',
+            cover: 'https://upload.wikimedia.org/wikipedia/en/f/ff/Gangster_poster.jpg'
+        },
 
 	    
     ],
