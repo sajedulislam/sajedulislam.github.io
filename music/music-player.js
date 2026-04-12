@@ -779,7 +779,13 @@ const ap = new APlayer({
             artist: 'Gangster',
             url: 'mp3/Ya Ali.mp3',
             cover: 'https://upload.wikimedia.org/wikipedia/en/f/ff/Gangster_poster.jpg'
-        },		    
+        },	
+	{
+            name: 'Raavana Mavandaa',
+            artist: 'Jana Nayagan',
+            url: 'mp3/music-100.mp3',
+            cover: 'https://pbs.twimg.com/profile_images/2015322379430592512/UcOCe6ar.jpg'
+        },	
     ],
 	
 });
