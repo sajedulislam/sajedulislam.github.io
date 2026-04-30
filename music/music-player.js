@@ -785,6 +785,12 @@ const ap = new APlayer({
             artist: 'Jana Nayagan',
             url: 'mp3/music-100.mp3',
             cover: 'https://pbs.twimg.com/profile_images/2015322379430592512/UcOCe6ar.jpg'
+        },
+	{
+            name: 'OST Kalki Theme',
+            artist: 'KALKI 2898 A.D',
+            url: 'mp3/music-101.mp3',
+            cover: 'https://cf-img-a-in.tosshub.com/sites/visualstory/wp/2024/07/image-3731.png'
         },	
     ],
 	
