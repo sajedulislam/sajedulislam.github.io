@@ -791,6 +791,12 @@ const ap = new APlayer({
             artist: 'KALKI 2898 A.D',
             url: 'mp3/music-101.mp3',
             cover: 'https://cf-img-a-in.tosshub.com/sites/visualstory/wp/2024/07/image-3731.png'
+        },
+		{
+            name: 'Mujhe Tumse Mohabbat Hai',
+            artist: 'Tumsa Nahin Dekha',
+            url: 'mp3/music-102.mp3',
+            cover: 'https://upload.wikimedia.org/wikipedia/en/2/2a/Tumsa_Nahin_Dekha_poster.jpg'
         },	
     ],
 	
