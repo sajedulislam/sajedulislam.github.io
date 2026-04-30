@@ -810,6 +810,12 @@ const ap = new APlayer({
             url: 'mp3/music-104.mp3',
             cover: 'https://upload.wikimedia.org/wikipedia/en/b/b3/RHTDM.jpg'
         },
+		{
+            name: 'Kaise Mein Kahun Tujhse',
+            artist: 'Rehnaa Hai Terre Dil Mein',
+            url: 'mp3/music-105.mp3',
+            cover: 'https://upload.wikimedia.org/wikipedia/en/b/b3/RHTDM.jpg'
+        },
     ],
 	
 });
