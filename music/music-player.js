@@ -795,7 +795,7 @@ const ap = new APlayer({
 		{
             name: 'Mujhe Tumse Mohabbat Hai',
             artist: 'Tumsa Nahin Dekha',
-            url: 'mp3/music-102.mp3',
+            url: 'mp3/MujheTumseMohabbatHai.mp3',
             cover: 'https://upload.wikimedia.org/wikipedia/en/2/2a/Tumsa_Nahin_Dekha_poster.jpg'
         },
 		{
@@ -807,7 +807,7 @@ const ap = new APlayer({
 		{
             name: 'Zara Zara',
             artist: 'Rehnaa Hai Terre Dil Mein',
-            url: 'mp3/music-104.mp3',
+            url: 'mp3/ZaraZara.mp3',
             cover: 'https://upload.wikimedia.org/wikipedia/en/b/b3/RHTDM.jpg'
         },
 		{
@@ -819,19 +819,19 @@ const ap = new APlayer({
 		{
             name: 'Tera Mera Rishta',
             artist: 'Awarapan',
-            url: 'mp3/music-106.mp3',
+            url: 'mp3/TeraMeraRishta.mp3',
             cover: 'https://static.wikia.nocookie.net/die-hard-scenario/images/d/d2/DHS-_Awarapan_%282007%29_movie_poster_%28Remake_of_A_Bittersweet_Life%29.jpg'
         },
 		{
             name: 'Toh Phir Aao',
             artist: 'Awarapan',
-            url: 'mp3/music-107.mp3',
+            url: 'mp3/TohPhirAao.mp3',
             cover: 'https://static.wikia.nocookie.net/die-hard-scenario/images/d/d2/DHS-_Awarapan_%282007%29_movie_poster_%28Remake_of_A_Bittersweet_Life%29.jpg'
         },
 		{
             name: 'Main Rahoon Ya Na Rahoon',
             artist: 'Amaal Mallik',
-            url: 'mp3/music-108.mp3',
+            url: 'mp3/MainRahoonYaNaRahoon.mp3',
             cover: 'https://c.saavncdn.com/395/Main-Rahoon-Ya-Na-Rahoon-Hindi-2015-500x500.jpg'
         },
     ],
