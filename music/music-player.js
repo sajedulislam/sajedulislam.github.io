@@ -816,6 +816,12 @@ const ap = new APlayer({
             url: 'mp3/music-105.mp3',
             cover: 'https://upload.wikimedia.org/wikipedia/en/b/b3/RHTDM.jpg'
         },
+		{
+            name: 'Tera Mera Rishta',
+            artist: 'Awarapan',
+            url: 'mp3/music-106.mp3',
+            cover: 'https://static.wikia.nocookie.net/die-hard-scenario/images/d/d2/DHS-_Awarapan_%282007%29_movie_poster_%28Remake_of_A_Bittersweet_Life%29.jpg'
+        },
     ],
 	
 });
