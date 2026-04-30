@@ -797,7 +797,19 @@ const ap = new APlayer({
             artist: 'Tumsa Nahin Dekha',
             url: 'mp3/music-102.mp3',
             cover: 'https://upload.wikimedia.org/wikipedia/en/2/2a/Tumsa_Nahin_Dekha_poster.jpg'
-        },	
+        },
+		{
+            name: 'Dilko Tumse Pyar Hua',
+            artist: 'Rehnaa Hai Terre Dil Mein',
+            url: 'mp3/music-103.mp3',
+            cover: 'https://upload.wikimedia.org/wikipedia/en/b/b3/RHTDM.jpg'
+        },
+		{
+            name: 'Zara Zara',
+            artist: 'Rehnaa Hai Terre Dil Mein',
+            url: 'mp3/music-104.mp3',
+            cover: 'https://upload.wikimedia.org/wikipedia/en/b/b3/RHTDM.jpg'
+        },
     ],
 	
 });
