@@ -822,6 +822,18 @@ const ap = new APlayer({
             url: 'mp3/music-106.mp3',
             cover: 'https://static.wikia.nocookie.net/die-hard-scenario/images/d/d2/DHS-_Awarapan_%282007%29_movie_poster_%28Remake_of_A_Bittersweet_Life%29.jpg'
         },
+		{
+            name: 'Toh Phir Aao',
+            artist: 'Awarapan',
+            url: 'mp3/music-107.mp3',
+            cover: 'https://static.wikia.nocookie.net/die-hard-scenario/images/d/d2/DHS-_Awarapan_%282007%29_movie_poster_%28Remake_of_A_Bittersweet_Life%29.jpg'
+        },
+		{
+            name: 'Main Rahoon Ya Na Rahoon',
+            artist: 'Amaal Mallik',
+            url: 'mp3/music-108.mp3',
+            cover: 'https://c.saavncdn.com/395/Main-Rahoon-Ya-Na-Rahoon-Hindi-2015-500x500.jpg'
+        },
     ],
 	
 });
