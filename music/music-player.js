@@ -834,6 +834,12 @@ const ap = new APlayer({
             url: 'mp3/MainRahoonYaNaRahoon.mp3',
             cover: 'https://c.saavncdn.com/395/Main-Rahoon-Ya-Na-Rahoon-Hindi-2015-500x500.jpg'
         },
+		{
+            name: 'Shaky',
+            artist: 'Sanju Rathod Ft. Isha Malviya',
+            url: 'mp3/Shaky.mp3',
+            cover: 'https://upload.wikimedia.org/wikipedia/en/e/ed/Shaky_Sanju_Rathod.jpg'
+        },
     ],
 	
 });
