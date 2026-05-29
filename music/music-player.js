@@ -840,6 +840,12 @@ const ap = new APlayer({
             url: 'mp3/Shaky.mp3',
             cover: 'https://upload.wikimedia.org/wikipedia/en/e/ed/Shaky_Sanju_Rathod.jpg'
         },
+		{
+            name: 'Verappa Extended',
+            artist: 'Karuppua',
+            url: 'mp3/VerappaExtended.mp3',
+            cover: 'https://upload.wikimedia.org/wikipedia/en/e/ed/Shaky_Sanju_Rathod.jpg'
+        },
     ],
 	
 });
