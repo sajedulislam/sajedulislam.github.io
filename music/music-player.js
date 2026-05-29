@@ -844,7 +844,7 @@ const ap = new APlayer({
             name: 'Verappa Extended',
             artist: 'Karuppua',
             url: 'mp3/VerappaExtended.mp3',
-            cover: 'https://upload.wikimedia.org/wikipedia/en/e/ed/Shaky_Sanju_Rathod.jpg'
+            cover: 'https://m.media-amazon.com/images/I/51VZYm0XBSL._UXNaN_FMjpg_QL85_.jpg'
         },
     ],
 	
