@@ -846,6 +846,18 @@ const ap = new APlayer({
             url: 'mp3/VerappaExtended.mp3',
             cover: 'https://m.media-amazon.com/images/I/51VZYm0XBSL._UXNaN_FMjpg_QL85_.jpg'
         },
+		{
+            name: 'Dheera Dheera',
+            artist: 'KGF',
+            url: 'mp3/DheeraDheera_KGF.mp3',
+            cover: 'https://c.saavncdn.com/396/Kgf-Chapter-1-Tamil-Tamil-2018-20220827063059-500x500.jpg'
+        },
+		{
+            name: 'Dil Mein Ho Tum - Why Cheat India',
+            artist: 'Armaan Malik',
+            url: 'mp3/DilMeinHoTum_WCI.mp3',
+            cover: 'https://images.genius.com/7806f608772a29845b1cc422d09c71f1.1000x1000x1.png'
+        },
     ],
 	
 });
