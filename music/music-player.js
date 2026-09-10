@@ -858,6 +858,12 @@ const ap = new APlayer({
             url: 'mp3/DilMeinHoTum_WCI.mp3',
             cover: 'https://images.genius.com/7806f608772a29845b1cc422d09c71f1.1000x1000x1.png'
         },
+		{
+            name: 'GulabiSadi',
+            artist: 'Sanju Rathod',
+            url: 'mp3/GulabiSadi.mp3',
+            cover: ''
+        },
     ],
 	
 });
